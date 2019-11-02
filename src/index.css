@@ -1,0 +1,592 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #e9e9e9;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+button {
+  width: 6em;
+  height: 2em;
+  margin-right: 1em;
+  border-radius: 40px;
+  border: 0;
+}
+
+header {
+  color: #047496 !important;
+}
+
+.blue {
+  color: #047496 !important;
+}
+
+.wrapper {
+  background: url(./img/body1.png) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+/* BANNER COMPONENT */
+
+.nav-menu {
+  color: black !important;
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+}
+
+.button-grey {
+  color: #e9e9e9;
+  background-color: transparent;
+  border: 1px solid #e9e9e9;
+}
+
+.button-yellow {
+  width: 9em;
+  background-color: #f9d12b;
+  color: #047496;
+}
+
+.banner-text {
+  color: #047496;
+  margin-top: 5em;
+}
+
+.text-wrapper {
+  width: 9em;
+  height: 5em;
+  font-size: 4em;
+  line-height: 3em;
+}
+
+.text-wrapper p {
+  color: black;
+  font-size: 10px;
+  line-height: 10px !important;
+}
+
+.banner-img {
+  width: 36em;
+  height: 33em;
+  background: url(./img/banner.png) no-repeat;
+  background-size: cover;
+  margin-top: 3em;
+}
+
+/* FEATURE COMPONENT */
+
+.feature-wrapper {
+  display: flex;
+  margin-top: 1em;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  background-color: #e9e9e9;
+  border-radius: 1em;
+  margin-right: 1em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.feature-img {
+  display: flex;
+  justify-content: center;
+  background: url(./img/cash.png) no-repeat;
+  width: 120px;
+  height: 80px;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 3.5em;
+}
+
+.feature-title {
+  text-align: center;
+  color: #047496;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.feature-detail {
+  padding: 0 20px 5px 20px;
+  text-align: center;
+}
+
+.feature-img-collaterial {
+  display: flex;
+  justify-content: center;
+  background: url(./img/collaterial.png) no-repeat;
+  width: 100px;
+  height: 70px;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.feature-img-interest {
+  display: flex;
+  justify-content: center;
+  background: url(./img/interest.png) no-repeat;
+  width: 100px;
+  height: 60px;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 1.8em;
+  margin-right: 7em;
+}
+
+/* INVEST COMPONENT */
+.invest-wrapper {
+  background-color: #047496;
+  width: 100%;
+  color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+}
+
+.invest-text {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.invest-subtext {
+  width: 12em;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.arvo-plans {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  color: #047496;
+  font-size: 1.3em;
+  margin-top: 4em;
+}
+
+.arvo-plans .one {
+  background-color: blanchedalmond;
+  width: 25%;
+  height: 2px;
+  margin-top: 25px;
+}
+
+.arvo-plans .two {
+  background-color: #e9e9e9;
+  width: 25%;
+  height: 50px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arvo-plans .three {
+  background-color: #f9d12b;
+  width: 25%;
+  height: 50px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 6em;
+}
+
+.plan-text {
+  margin-left: 3em;
+}
+
+.plans .plan-button {
+  background-color: #f9d12b;
+  color: #047496;
+  margin-top: 3em;
+  width: 8em;
+}
+
+.plans .plan-icon {
+  width: 120px;
+  height: 100px;
+  background: url(./img/loan.png) no-repeat;
+  background-size: contain;
+  margin-top: 4em;
+}
+
+.plan-title {
+  font-size: 2em;
+}
+
+.plan-img {
+  background: url(./img/phone1.png) no-repeat;
+  width: 50%;
+  height: 400px;
+  background-size: contain;
+}
+
+/* TESTIMONALS */
+.testimonals-wrapper {
+  width: 100%;
+  background: url(./img/testimonals.jpg) no-repeat;
+  background-size: cover;
+}
+
+.testimonal {
+  width: 60%;
+  margin-left: 20%;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 4em;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.testi-img {
+  background: url(./img/person1.png) no-repeat;
+  width: 60%;
+  height: 100px;
+  background-size: contain;
+  margin-left: 20em;
+}
+
+.testimonal .testi-title {
+  color: #047496;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.testimonal .testi-desc {
+  width: 50%;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5em;
+  height: 100px;
+}
+
+.clients .client-one {
+  width: 220px;
+  height: 80px;
+  background: url(./img/First.png) no-repeat;
+  background-size: contain;
+  margin-top: 3em;
+}
+
+.clients .client-two {
+  width: 220px;
+  height: 80px;
+  background: url(./img/lagosLogo.png) no-repeat;
+  background-size: contain;
+}
+
+.clients .client-three {
+  width: 220px;
+  height: 80px;
+  background: url(./img/paystack.png) no-repeat;
+  background-size: contain;
+  margin-top: 1em;
+}
+
+.clients .client-four {
+  width: 220px;
+  height: 80px;
+  background: url(./img/CRC.png) no-repeat;
+  background-size: contain;
+  margin-top: 3em;
+}
+
+/* END OF TESTIMONIALS */
+
+/* GET READY */
+.getReady-wrapper {
+  width: 100%;
+  background: url(./img/getready.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.getReady-wrapper .getReady-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.getReady-wrapper .getReady-title {
+  font-size: 2em;
+  color: #047496;
+  font-weight: 400;
+}
+
+.getReady-wrapper .getReady-desc {
+  font-size: 1.3em;
+  color: black;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.getReady-btn {
+  background-color: #f9d12b;
+  width: 15%;
+  height: 40px;
+  color: #047496;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 2em;
+}
+
+.join-us {
+  display: flex;
+  width: 100%;
+  margin-top: 4em;
+  padding-left: 2em;
+  justify-content: space-around;
+}
+
+.join-us .logo {
+  width: 25%;
+  height: 40px;
+}
+
+.logo-img {
+  background: url(./img/arvoLogo2.png) no-repeat;
+  width: 50%;
+  height: 80px;
+  background-size: contain;
+}
+
+.soln-title {
+  font-size: 1.4em;
+  color: #047496;
+  font-weight: 400;
+}
+
+.solutions ul li,
+.resources ul li,
+.support ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* .support {
+  margin-right: 5em;
+} */
+
+.support ul {
+  margin-top: 3em;
+}
+
+.social-media {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.social-media .tweet {
+  width: 15%;
+  height: 100%;
+  background: url(./img/tiwitter.png) no-repeat;
+  background-size: contain;
+  margin-right: 0.6em;
+}
+
+.social-media .fb {
+  width: 15%;
+  height: 100%;
+  background: url(./img/fb.png) no-repeat;
+  background-size: contain;
+  margin-right: 0.6em;
+}
+
+.social-media .instagram {
+  width: 15%;
+  height: 100%;
+  background: url(./img/inst.png) no-repeat;
+  background-size: contain;
+  margin-right: 0.6em;
+}
+
+.social-media .linkedin {
+  width: 15%;
+  height: 100%;
+  background: url(./img/lin.png) no-repeat;
+  background-size: contain;
+}
+
+/* END OF GET READY */
+
+/* FOOTER */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #047496;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 1em;
+}
+
+.footer-img {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.footer-logo {
+  display: flex;
+  width: 60%;
+  height: 60px;
+}
+
+.footer-logo .playstore {
+  width: 60%;
+  height: 60px;
+  background: url(./img/get.png) no-repeat;
+  background-size: contain;
+}
+
+.footer-logo .appstore {
+  width: 60%;
+  height: 46px;
+  background: url(./img/appstore22.png) no-repeat;
+  background-size: contain;
+  margin-top: 0.4em;
+  margin-left: -9em;
+}
+
+/*-- Responsive design --*/
+
+@media screen and (max-width: 766px) {
+  .text-wrapper {
+    text-align: center;
+  }
+
+  .feature-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .wrapper1 {
+    margin-top: 2em;
+  }
+
+  .arvo-plans {
+    font-size: 0.9em;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .testi-img {
+    margin-left: 5em;
+  }
+
+  .getReady-wrapper .getReady-desc {
+    width: 80%;
+  }
+
+  .getReady-btn {
+    width: 13em;
+  }
+
+  .footer-logo {
+    display: flex;
+    width: 80%;
+  }
+
+  .footer-logo .playstore {
+    width: 40%;
+  }
+
+  .footer-logo .appstore {
+    width: 30%;
+    margin-left: 1em;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  /* #navbarCollapse3 {
+    color: #ff0000;
+  }
+  .toggle {
+    color: green;
+    background-color: blue;
+  } */
+
+  .text-wrapper {
+    text-align: center;
+    width: 80%;
+    margin-left: 1em;
+  }
+
+  .banner-img {
+    margin-left: -1em;
+  }
+
+  .feature-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10em;
+  }
+}
