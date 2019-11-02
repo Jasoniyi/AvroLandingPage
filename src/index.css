@@ -590,3 +590,6 @@ footer {
     margin-left: 10em;
   }
 }
+
+@media screen and (max-width: 364px) {
+}
